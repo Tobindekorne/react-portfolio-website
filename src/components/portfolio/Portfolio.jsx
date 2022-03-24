@@ -12,7 +12,7 @@ const data = [
         image: IMG1,
         title: 'Math Tic-Tac-Toe',
         github: 'https://github.com/Tobindekorne/nextjs-math-tic-tac-toe',
-        demo: 'https://tobindekorne.com/educational-games/tic-tac-toe',
+        demo: 'https://tic-tac-toe.tobindekorne.com',
     },
     {
         id: 6,
