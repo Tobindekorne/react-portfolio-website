@@ -22,6 +22,13 @@ const data = [
         demo: 'https://insta2.tobindekorne.com',
     },
     {
+        id: 6,
+        image: IMG6,
+        title: 'insta-2.0',
+        github: 'https://github.com/Tobindekorne/mern-goals',
+        demo: 'https://mernapptobin.herokuapp.com/login',
+    },
+    {
         id: 2,
         image: IMG9,
         title: 'Particle Effect Generator - P5JS',
