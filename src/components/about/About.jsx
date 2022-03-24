@@ -8,7 +8,7 @@ import axios from 'axios';
 
 const About = () => {
     const [githubData, setGithubData] = useState({});
-    useEffect(async () => {
+    useEffect(() => {
         let githubClientId, githubClientSecret;
         if (process.env.NODE_ENV !== 'production') {
             githubClientId = process.env.REACT_APP_GITHUB_CLIENT_ID;
