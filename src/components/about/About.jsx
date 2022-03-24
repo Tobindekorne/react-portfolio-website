@@ -9,7 +9,15 @@ import axios from 'axios';
 const About = () => {
     const [githubData, setGithubData] = useState({});
     useEffect(async () => {
-        const github_api_url = `https://api.github.com/users/Tobindekorne?client_id=${process.env.REACT_APP_GITHUB_CLIENT_ID}&client_secret=${process.env.REACT_APP_GITHUB_CLIENT_SECRET}`;
+        let githubClientId, githubClientSecret;
+        if (process.env.NODE_ENV !== 'production') {
+            githubClientId = process.env.REACT_APP_GITHUB_CLIENT_ID;
+            githubClientSecret = process.env.REACT_APP_GITHUB_CLIENT_SECRET;
+        } else {
+            githubClientId = process.env.GITHUB_CLIENT_ID;
+            githubClientSecret = process.env.GITHUB_CLIENT_SECRET;
+        }
+        const github_api_url = `https://api.github.com/users/Tobindekorne?client_id=${githubClientId}&client_secret=${githubClientSecret}`;
 
         const getData = async () => {
             const myData = await axios.get(github_api_url);
