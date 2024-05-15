@@ -63,7 +63,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6195afb1-f948-4af1-b749-45172636bd8c/deploy-status)](https://app.netlify.com/sites/tobindekorne/deploys)
+This site is deployed on Netlify using their continuous delivery feature linked to this repo
 
 ### `npm run build` fails to minify
 

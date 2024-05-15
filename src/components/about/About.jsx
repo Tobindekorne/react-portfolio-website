@@ -44,7 +44,9 @@ const About = () => {
                         <article className='about__card'>
                             <FaAward className='about__icon' />
                             <h5>Experience</h5>
-                            <small>3+ Years Working</small>
+                            <small>
+                                {new Date().getFullYear() - 2018} Years Working
+                            </small>
                         </article>
                         {/* <article className='about__card'>
                             <FiUsers className='about__icon' />
@@ -64,14 +66,15 @@ const About = () => {
                     </div>
 
                     <p>
-                        I am a San Diego based full stack engineer currently
-                        working as a freelancer. Javascript is my jam and I'm
-                        enjoying learning new libraries and frameworks like
-                        React JS and Tailwind. I am constantly looking for new
-                        things to learn and new opportunities to grow and branch
-                        out as an engineer. Whether you need help improving your
-                        site, are just starting a new site, or have an idea and
-                        want to collab on a new project, please reach out!
+                        I am a San Diego based sr. full stack engineer currently
+                        working as a freelancer. Javascript, Typescript and
+                        Python are my jam and I'm enjoying learning new
+                        libraries and frameworks like React JS and Tailwind. I
+                        am constantly looking for new things to learn and new
+                        opportunities to grow and branch out as an engineer.
+                        Whether you need help improving your site, are just
+                        starting a new site, or have an idea and want to collab
+                        on a new project, please reach out!
                     </p>
 
                     <a href='#contact' className='btn btn-primary'>
