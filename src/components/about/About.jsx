@@ -45,7 +45,7 @@ const About = () => {
                             <FaAward className='about__icon' />
                             <h5>Experience</h5>
                             <small>
-                                {new Date().getFullYear() - 2018} Years Working
+                                {new Date().getFullYear() - 2019}+ Years Working
                             </small>
                         </article>
                         {/* <article className='about__card'>
